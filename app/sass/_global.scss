@@ -1,1 +1,36 @@
-@import url();
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.5rem;
+  line-height: 1.3;
+  min-height: 100vh;
+  background-color: #b2b1b9;
+  color: #333;
+}
+
+.key--equal {
+  grid-column: 4/5;
+  grid-row: 2/6;
+}
+
+.btn {
+  font-size: 1.2rem;
+  border-radius: 1rem;
+  border: none;
+}
+
+.container {
+  padding: 1.2rem 1rem;
+}

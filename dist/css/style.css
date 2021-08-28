@@ -69,6 +69,7 @@ body {
 
 .calculator__result {
   margin-right: 0.45rem;
+  overflow: hidden;
 }
 
 .calculator__buttons {
